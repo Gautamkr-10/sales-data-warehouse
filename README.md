@@ -17,7 +17,7 @@ The goal of this project is to build a **Sales Analytics System** that enables d
 ---
 
 ## 🏗️ Architecture
-
+```
 Raw CSV Data
 ↓
 Staging Table (PostgreSQL)
@@ -31,7 +31,7 @@ Analytics Layer
 (SQL Queries & Python Scripts)
 ↓
 BI Dashboards (Metabase)
----
+```
 
 ## 🛠️ Technologies Used
 
@@ -44,7 +44,7 @@ BI Dashboards (Metabase)
 ---
 
 ## 📁 Project Structure
-
+```
 sales-data-warehouse/
 │
 ├── data/
@@ -67,7 +67,7 @@ sales-data-warehouse/
 │ └── revenue_by_region.png
 │
 └── README.md
-
+```
 
 ---
 
