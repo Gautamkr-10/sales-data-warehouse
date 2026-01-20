@@ -1,6 +1,6 @@
 # 📊 Sales Analytics Data Warehouse & BI Dashboard
 
-An end-to-end **Data Analytics project** demonstrating real-world data modeling, ETL, SQL analytics, Python reporting, and BI dashboarding on a large sales dataset.
+An end-to-end **Data Analytics project** demonstrating real-world data modeling, ETL, SQL analytics, Python reporting, and Metabase dashboarding on a large sales dataset.
 
 This project simulates how raw transactional data is transformed into **business-ready insights** using modern analytics tools.
 
