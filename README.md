@@ -1,4 +1,36 @@
+# 📊 Sales Analytics Data Warehouse & BI Dashboard
 
+An end-to-end **Data Analytics project** demonstrating real-world data modeling, ETL, SQL analytics, Python reporting, and BI dashboarding on a large sales dataset.
+
+This project simulates how raw transactional data is transformed into **business-ready insights** using modern analytics tools.
+
+---
+
+## 🚀 Project Overview
+
+The goal of this project is to build a **Sales Analytics System** that enables decision-makers to analyze revenue, customer behavior, product performance, and regional trends.
+
+- Dataset Size: **~1,000,000 sales records**
+- Architecture: **Star Schema (Fact & Dimension tables)**
+- Analytics Layers: **SQL, Python, BI Dashboard**
+
+---
+
+## 🏗️ Architecture
+
+Raw CSV Data
+↓
+Staging Table (PostgreSQL)
+↓
+Dimension Tables
+(Customer, Product, Store, Date, Employee)
+↓
+Fact Table (Sales)
+↓
+Analytics Layer
+(SQL Queries & Python Scripts)
+↓
+BI Dashboards (Metabase)
 ---
 
 ## 🛠️ Technologies Used
@@ -100,6 +132,13 @@ sales-data-warehouse/
 ### 2️⃣ Run Python Analytics
 ```bash
 python notebooks/analytics_visuals.py
+```
 
+### Run Metabase
+```
 java -jar metabase.jar
+```
+### Access Metabase at:
+```
 http://localhost:3000
+```
