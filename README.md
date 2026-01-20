@@ -1,0 +1,105 @@
+
+---
+
+## 🛠️ Technologies Used
+
+- **Database:** PostgreSQL  
+- **Query Language:** SQL  
+- **Programming:** Python (Pandas, Matplotlib, SQLAlchemy)  
+- **BI Tool:** Metabase  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📁 Project Structure
+
+sales-data-warehouse/
+│
+├── data/
+│ └── (dataset excluded due to size)
+│
+├── sql/
+│ ├── create_tables.sql
+│ ├── load_dimensions.sql
+│ ├── load_fact.sql
+│ └── analytics_queries.sql
+│
+├── notebooks/
+│ ├── etl_load_sales_data.py
+│ └── analytics_visuals.py
+│
+├── reports/
+│ ├── total_revenue.txt
+│ ├── monthly_revenue_trend.png
+│ ├── top_5_products.png
+│ └── revenue_by_region.png
+│
+└── README.md
+
+
+---
+
+## 🔄 ETL Process
+
+1. Loaded raw CSV data into a **staging table**
+2. Cleaned and standardized data (dates, nulls, duplicates)
+3. Built **dimension tables** with deduplication logic
+4. Loaded **fact table** using join-based inserts to maintain referential integrity
+5. Validated data consistency across SQL and Python analytics
+
+---
+
+## 📊 Analytics Performed
+
+### 🔹 SQL Analytics
+- Total Revenue calculation
+- Monthly revenue trends
+- Revenue by region
+- Top products by revenue
+- Customer segmentation analysis
+
+### 🔹 Python Analytics
+- Automated SQL querying using Pandas
+- Revenue aggregation and trend analysis
+- Generated and saved charts using Matplotlib
+
+### 🔹 BI Dashboards (Metabase)
+- KPI card for Total Revenue
+- Interactive Monthly Revenue Trend
+- Revenue by Region bar chart
+- Top Products performance analysis
+
+---
+
+## 📈 Key Insights
+
+- Total Revenue: **₹5.68+ Billion**
+- Clear seasonal revenue patterns identified
+- Regional performance comparison enabled
+- High-value products and customer segments identified
+
+---
+
+## 🧠 Key Learnings
+
+- Star schema data modeling
+- ETL pipeline design and debugging
+- Handling foreign keys and duplicates
+- SQL joins and aggregations at scale
+- Python-based analytics automation
+- BI dashboard creation for business users
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Database Setup
+- Create PostgreSQL database
+- Run SQL scripts in `/sql` folder
+
+### 2️⃣ Run Python Analytics
+```bash
+python notebooks/analytics_visuals.py
+
+java -jar metabase.jar
+http://localhost:3000
