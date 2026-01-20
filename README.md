@@ -12,7 +12,7 @@ The goal of this project is to build a **Sales Analytics System** that enables d
 
 - Dataset Size: **~1,000,000 sales records**
 - Architecture: **Star Schema (Fact & Dimension tables)**
-- Analytics Layers: **SQL, Python, BI Dashboard**
+- Analytics Layers: **SQL, Python, Metabase Dashboard**
 
 ---
 
