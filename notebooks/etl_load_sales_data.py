@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 # 1. Database connection
 engine = create_engine(
-    "postgresql://postgres:root@localhost:5432/sales_dw"
+    "postgresql://postgres:YOUR_PASSWORD@localhost:5432/sales_dw"
 )
 
 # 2. Load CSV
