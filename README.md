@@ -142,3 +142,5 @@ java -jar metabase.jar
 ```
 http://localhost:3000
 ```
+### MetaBase Dashboard
+<img width="1898" height="868" alt="Screenshot (431)" src="https://github.com/user-attachments/assets/5a75df3f-50dd-44ac-9bf2-6e13b754f6c8" />
